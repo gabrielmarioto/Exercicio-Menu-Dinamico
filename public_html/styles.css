@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/03/2020, 16:13:44
+    Author     : Gabriel
+*/
+
+
+#menu
+{
+    background-color: ghostwhite;
+    height: 50px;    
+    border: 1px solid lightslategray;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 1em;
+}
+#sub
+{
+    background-color: lightgray;
+    height: 37px; 
+    outline: 1px solid lightslategray;
+    font-family: Arial;    
+}
+p
+{
+    padding: 0.7em 0 0 2.5em;
+}
+li
+{
+    display: inline;
+}
+ul
+{
+    list-style-type: none;
+}
+
+
+
+
+
+
+/* TELA CADASTROS ABAIXO*/
+
+section
+{
+    display: flex;
+    justify-content: center;    
+    height: 100%;
+    width: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 10em;
+    outline: 1px solid black;
+}
+
+
+#labelTitulo
+{
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+}
+#labelConteudo
+{
+    color: grey;
+    font-family: Arial;
+    font-size: 16px;
+}
+section
+{
+    opacity: 0;
+}
+section:hover
+{
+    opacity: 1;
+}
+body{background-color: ghostwhite;}
+
+#login
+{
+    height: 400px;
+    width: 450px;
+    text-align: center; 
+    margin: 0 auto; 
+    margin-top: 50px;
+    border: 1px solid lightslategray;
+}
+
+label
+{
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 20px
+}
+
+#sign{color:   #0A1B2A;}
+
+#mybutton
+{
+    color: white; 
+    background-color: #009483; 
+    border-color: #009483;
+    width:150px;
+    height:40px;
+}
+
+#loguin
+{
+    color: white; 
+    background-color: #4F4F4F; 
+    border-color: #4F4F4F; 
+    width:150px;
+    height:40px;    
+}
+
+#name{
+    width:180px; 
+    height: 30px; 
+    /*    background-color: #0A1B2A; */
+    background-color: activeborder;
+    border-color: lightslategray;
+    margin:0 1em 0 0; 
+    border: 1px solid lightslategray;
+    color: black
+}
+
+#email{
+    color: black; 
+    background-color: activeborder;
+    
+    width:380px;
+    height:30px; 
+    margin:0 1em 0 0; 
+    border: 1px solid lightslategray;
+}
+#senha
+{
+    color: black; 
+    background-color: activeborder;
+    width:380px;
+    height:30px; 
+    margin:0 1em 0 0; 
+    border: 1px solid lightslategray;
+}
+
+#getstarted{
+    color: black; 
+    background-color: activeborder; 
+    border-color: lightslategray;
+    width:380px;
+    height:45px;
+    margin:0 1em 0 0;
+    font-size: 20px
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit],
+textarea
+{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
